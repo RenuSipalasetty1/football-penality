@@ -1,4 +1,84 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to  right, red,yellow,blue,violet);
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+
+}
+.container{
+    background:linear-gradient(to bottom right,#00e6e6, yellow);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 540px;
+    padding: 65px;
+    margin-top: 50px;
+
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+
+}
+.col{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.name{
+    margin: 20px 0px;
+    font-size: x-large;
+    color: hsl(236, 86%, 41%);
+    font-weight: bold;
+}
+.pic{
+    border-radius: 50%;
+    border: 5px solid   yellow
+
+    ;
+}
+.score{
+    font-size: xx-large;
+    color: red;
+
+}
+.score > .runs{
+    margin: 0px 5px;
+}
+.runs{
+    font-size: xx-large;
+    width: 200px;
+    color:red;
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
+#strike-button{
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to left ,#00e6e6,blue);
+    width: 275px;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+#button{
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to left ,#00e6e6,blue);
+    width: 100px;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+
 }
