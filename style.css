@@ -3,21 +3,45 @@
     padding: 0;
 }
 body{
-    background: linear-gradient(to  right, red,yellow,blue,violet);
+    background-image: url(./logos/stadium.jpg);
     display: flex;
-    justify-content: center;
-    height: 75vh;
+justify-content: space-around;   
+ height: 75vh;
+ font-family: fantasy;
 
 }
-.container{
-    background:linear-gradient(to bottom right,#00e6e6, yellow);
+
+.container1{
+    background:transparent;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     width: 540px;
     padding: 65px;
-    margin-top: 50px;
-
+    margin-top: 300px;
+    margin-right: -300px;
+    
+}
+.container2{
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 540px;
+    padding: 65px;
+    margin-top: -50px;
+    
+}
+.container3{
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 540px;
+    padding: 65px;
+    margin-top: 300px;
+    margin-left: -300px;
+    
 }
 .container > .row{
     width: 100%;
@@ -25,6 +49,7 @@ body{
 }
 .row{
     display: flex;
+    justify-content: space-between;
 
 }
 .col{
@@ -36,14 +61,20 @@ align-items: center;
 .name{
     margin: 20px 0px;
     font-size: x-large;
-    color: hsl(236, 86%, 41%);
-    font-weight: bold;
+    color: #17ed14;
+    font-weight: normal;
+    padding: 1px;
+    width: 113px;
+    border-radius: 2%;
+    background: blue;
+    margin-top: 1px;
+    text-align: center;
 }
 .pic{
-    border-radius: 50%;
-    border: 5px solid   yellow
+    border-radius: 2%;
+    width: 117px;
+    height: 117px;
 
-    ;
 }
 .score{
     font-size: xx-large;
@@ -53,32 +84,49 @@ align-items: center;
 .score > .runs{
     margin: 0px 5px;
 }
-.runs{
-    font-size: xx-large;
-    width: 200px;
-    color:red;
-    justify-content: space-evenly;
-    font-weight: bolder;
+ .runs >.col{
+    height: 15px;
+width: 15px;
+background-color: white;
+border-radius: 50%;
+border:solid 1px black;
+display: inline-block;
+margin: 1px;
+margin-top: -13px;
 }
+
 #strike-button{
     border: none;
-    border-radius: 25px;
+    border-radius: 3px;
     background: linear-gradient(to left ,#00e6e6,blue);
-    width: 275px;
+    width: 109px;
     font-size: 16px;
     color: black;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 4px;
+    margin-top: 84px;
 
 }
-#button{
+
+#strike-button1{
     border: none;
-    border-radius: 25px;
+    border-radius: 3px;
     background: linear-gradient(to left ,#00e6e6,blue);
-    width: 100px;
+    width: 109px;
     font-size: 16px;
     color: black;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 4px;
+    margin-top: 84px;
 
 }
+#strike-button2{
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to left ,#00e6e6,blue);
+    width: 109px;
+    font-size: 16px;
+    color: black;
+    padding: 4px;
+    margin-top: 84px;
+
+}
+

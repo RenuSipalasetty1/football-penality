@@ -3,50 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>football-penality</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
         <div class="row">
             <div class="col">
-                <img class="pic" src="./logos/chelsea.png" alt="chelsea logo" width="150" height="150">
-                  <span class="name" id="team-c-name">CHELSEA</span>  
+                <img class="pic" id="c-team-pic" src="" alt="" >
+                  <span class="name" id="team-c-name"></span>  
                     <div class="row runs" id="team-c">
-                        <span class="row">_</span>
-                        <span class="col"> _</span>
-                        <span class="col"> _</span>
-                        <span class="col"> _</span>
-                        <span class="col"> _</span>
-                        <span class="col"> _</span>
+                
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        
                     </div>
             </div>
             <div class="col">
                 <div class="row score">
-                <span id="team-c-score">3</span>
+                <span id="team-c-score"></span>
                 <span>-</span>
-                <span id="team-l-score">4</span>
+                <span id="team-l-score"></span>
+                </div>
+                <div class="row">
+                    <button id="strike-button"></button>
                 </div>
             </div>
             <div class="col">
-                <img class="pic" src="./logos/liverpool.jpg" alt="liverpool logo" width="150" height="150">
-                <span class="name" id="team-l-name">LIVERPOOL</span>
+                <img class="pic" id="l-team-pic" src="" alt="" >
+                <span class="name" id="team-l-name"></span>
                     <div class="row runs" id="team-l">
-                        <span class="col">_</span>
-                        <span class="col">_</span>
-                        <span class="col">_</span>
-                        <span class="col">_</span>
-                        <span class="col">_</span>
-                        <span class="col">_</span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
 
                     </div>
             </div>
         </div>
+
+    </div>
+    <div class="container2">
         <div class="row">
-            <button id="button"> try again</button>
-            <button id="strike-button">HUESKA STRIKE</button>
+            <div class="col">
+                <img class="pic" src="./logos/liverpool.jpg" alt="LIVERPOOL" >
+                  <span class="name" id="team-c-name"></span>  
+                    <div class="row runs" id="team-c">
+                
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        
+                    </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                <span id="team-c-score"></span>
+                <span>-</span>
+                <span id="team-l-score"></span>
+                </div>
+                <div class="row">
+                    <button id="strike-button2"></button>
+                </div>
+            </div>
+            <div class="col">
+                <img class="pic" src="./logos/everton.png" alt="EVERTON" >
+                <span class="name" id="team-l-name"></span>
+                    <div class="row runs" id="team-l">
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+
+                    </div>
+            </div>
         </div>
 
     </div>
+    <div class="container3">
+        <div class="row">
+            <div class="col">
+                <img class="pic" id="a-team-pic" src="" alt="" >
+                  <span class="name" id="team-a-name"></span>  
+                    <div class="row runs" id="team-a">
+                
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        <span class="col"> </span>
+                        
+                    </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                <span id="team-a-score"></span>
+                <span>-</span>
+                <span id="team-e-score"></span>
+                </div>
+                <div class="row">
+                    <button id="strike-button1"></button>
+                </div>
+        
+            </div>
+            <div class="col">
+                <img class="pic" id="e-team-pic" src="" alt="">
+                <span class="name" id="team-e-name"></span>
+                    <div class="row runs" id="team-e">
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+                        <span class="col"></span>
+
+                    </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
