@@ -129,4 +129,21 @@ margin-top: -13px;
     margin-top: 84px;
 
 }
-
+#result{
+    margin-top: 50px;
+    background: linear-gradient(90deg,#f79d00,#64f38c);
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    /* color: transparent; */
+}
+#result2{
+    margin-top: 50px;
+    background: linear-gradient(90deg,#f79d00,#64f38c);
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    /* color: transparent; */
+}
